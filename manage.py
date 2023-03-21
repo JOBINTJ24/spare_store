@@ -1,6 +1,6 @@
 
 """Django's command-line utility for administrative ta"""
-import
+
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'storeproject.settings')
