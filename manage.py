@@ -1,5 +1,5 @@
 
-"""Django's command-line utility for administrative ta"""
+"""Django's command-line utility for administrative ta""
 
 def main():
     """Run administrative tasks."""
