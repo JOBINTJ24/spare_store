@@ -2,7 +2,7 @@
 """Django's command-line utility for administrative ta""
 
 def main():
-    """Run administrative tasks"""
+    """Run administrative tas"""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'storeproject.settings')
     try:
         from django.core.management import execute_from_command_line
