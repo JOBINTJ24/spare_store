@@ -5,8 +5,7 @@ var Creditly = (function() {
     return getNumber(inputValue);
   };
 
-  var getNumber = function(string) {
-    return string.replace(/[^\d]/g, "");
+  
   };
 
   var reachedMaximumLength = function(e, maximumLength, selector) {
