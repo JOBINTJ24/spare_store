@@ -17,7 +17,7 @@ class MyAccountManager(BaseUserManager):
             email=self.normalize_email(email),
                         lname=lname,
                         phone_number=phone_number,
-                        fname=fname,
+                   
 
         )
 
