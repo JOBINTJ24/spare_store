@@ -3,7 +3,7 @@ from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
 import datetime
 
 
-# Create your models here.
+
 
 class MyAccountManager(BaseUserManager):
     def create_user(self, fname, lname, phone_number, email, password=None):
